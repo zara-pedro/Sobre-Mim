@@ -142,3 +142,38 @@ nav {
         display: block;
         margin-left: auto;
     }
+
+#rede {
+    padding: 60px 0;
+}
+
+    #rede .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #rede .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #rede .col {
+        flex: 1;
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    #rede p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    #rede img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+    }
