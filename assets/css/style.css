@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.section-container {
+    background-color: #cfcccc;
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 60px;
+}
+
+nav {
+    display: flex;
+}
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        list-style: none;
+        margin-left: 30px;
+    }
+
+    nav a {
+        color: #333;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: color 0.2s ease-in-out;
+    }
+
+        nav a:hover {
+            color: #2c3e50;
+        }
+
+#sobre {
+    padding: 60px 0;
+}
+
+    #sobre .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #sobre .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #sobre .col {
+        flex: 1;
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    #sobre .text {
+        flex: 1;
+    }
+
+    #sobre h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+
+    #sobre p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    #sobre img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+    }
